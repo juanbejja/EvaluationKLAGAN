@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.577 sec
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 34.955 sec <<< FAILURE!
+Search for a one-way flight from Buenos Aires to Madrid(Search Flight)  Time elapsed: 33.92 sec  <<< ERROR!
+java.lang.Exception: The element could not be clicked on: By.xpath: //div[text()=" (AEP)"]//span[@class="select2-match"]
+	at pom.BasePage.click(BasePage.java:25)
+	at pom.Home.enterFrom(Home.java:49)
+	at seleniumgluecode.Test.enter_the_search_for_a_one_way_flight_from_Argentina_to_Madrid(Test.java:24)
+	at ?.Enter the search for a one-way flight from Argentina to Madrid(file:///C:/Users/A309598/Desktop/Universidad%20JAVA/KLAGAN/AutomationKLagan/src/test/java/features/Reservation.feature:9)
+

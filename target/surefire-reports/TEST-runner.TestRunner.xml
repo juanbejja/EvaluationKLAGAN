@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="runner.TestRunner" time="26.648" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="runner.TestRunner" time="33.92" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="src/test/java/features/Reservation.feature"/>
     <property name="java.vm.version" value="14.0.1+7"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\A309598\Desktop\Universidad JAVA\AutomCucumber"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\A309598\Desktop\Universidad JAVA\KLAGAN\AutomationKLagan"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\A309598\Desktop\Universidad JAVA\AutomCucumber"/>
+    <property name="user.dir" value="C:\Users\A309598\Desktop\Universidad JAVA\KLAGAN\AutomationKLagan"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
     <property name="os.arch" value="amd64"/>
@@ -61,5 +61,19 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Hotel Booking" name="Search for a one-way flight from Buenos Aires to Madrid" time="26.648"/>
+  <testcase classname="Search Flight" name="Search for a one-way flight from Buenos Aires to Madrid" time="33.92">
+    <error message="The element could not be clicked on: By.xpath: //div[text()=&quot; (AEP)&quot;]//span[@class=&quot;select2-match&quot;]" type="java.lang.Exception">java.lang.Exception: The element could not be clicked on: By.xpath: //div[text()=&quot; (AEP)&quot;]//span[@class=&quot;select2-match&quot;]
+	at pom.BasePage.click(BasePage.java:25)
+	at pom.Home.enterFrom(Home.java:49)
+	at seleniumgluecode.Test.enter_the_search_for_a_one_way_flight_from_Argentina_to_Madrid(Test.java:24)
+	at ✽.Enter the search for a one-way flight from Argentina to Madrid(file:///C:/Users/A309598/Desktop/Universidad%20JAVA/KLAGAN/AutomationKLagan/src/test/java/features/Reservation.feature:9)
+</error>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23016
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 24, 2021 3:45:54 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
 </testsuite>
