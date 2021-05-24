@@ -25,7 +25,7 @@ public class Home extends BasePage {
 	private By lblChild = By.xpath("//div//label[text()=\"Child \"]");
 	private By lblInfant = By.xpath("//div//label[text()=\"infant \"]");
 	private By btnSearch = By.xpath("//button[contains(text(),'Search')]");
-	private By inputFrom = By.xpath("//div[@id=\"s2id_location_from\"]");
+	private By inputFrom = By.xpath("//div[@id=\"s2id_location_from\"]//a[@class=\"select2-choice\"]");
 	private By inputTo = By.xpath("//div[@id=\"s2id_location_to\"]");
 	private By optBAAEP = By.xpath("//ul//li[1]//div[@class=\"select2-result-label\"]");
 	private By optMAD = By.xpath("//ul[@class=\"select2-results\"]//li//*[contains(text(),'(MAD)')]");
