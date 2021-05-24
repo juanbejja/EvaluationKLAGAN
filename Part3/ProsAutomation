@@ -1,0 +1,25 @@
+#Pros of test automation:
+
+#Increased time and cost effectiveness 
+
+Automated testing requires less execution time than manual testing. 
+Although they have a higher initial cost, this cost is amortized over time with respect to the gains it brings.
+
+#Facilitates the implementation of continuous integration
+
+Implementing this methodology without automated testing would be impossible, since developers would have to run manual tests every time they make changes. 
+run manual tests every time they make changes to the main source. 
+Automated tests can be run every time changes are made automatically.
+
+#Ensures quality in software development
+
+Software testing must be repeated several times during the development cycle to ensure quality. 
+Each time the source code is modified, software testing should be repeated, taking into consideration all operating systems and hardware configurations 
+where it operates.
+and hardware configurations where it operates.
+
+
+In this project we used Cucumber technology under the POM pattern because it facilitates the approach to perform plain text functional descriptions 
+(usually this technology is used under BDD approach where the tests are performed together with the Product Owners). 
+The datasource of the tests are in the classes of each screen.
+An alternative for larger projects would be to have the datasource in JSON files or in a database.
