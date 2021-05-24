@@ -27,7 +27,7 @@ public class Home extends BasePage {
 	private By btnSearch = By.xpath("//button[contains(text(),'Search')]");
 	private By inputFrom = By.xpath("//div[@id=\"s2id_location_from\"]");
 	private By inputTo = By.xpath("//div[@id=\"s2id_location_to\"]");
-	private By optBAAEP = By.xpath("//div[text()=\" (AEP)\"]//span[@class=\"select2-match\"]");
+	private By optBAAEP = By.xpath("//ul//li[1]//div[@class=\"select2-result-label\"]");
 	private By optMAD = By.xpath("//ul[@class=\"select2-results\"]//li//*[contains(text(),'(MAD)')]");
 
 	public Home(WebDriver driver) {
