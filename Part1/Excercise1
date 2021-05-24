@@ -1,0 +1,50 @@
+#NOTE
+THE HOTEL BOOKING FUNCTIONALITY WAS NOT IMPLEMENTED.
+
+
+#SCENARIOS
+
+#Exploration target
+Search Menu in Home Page
+#Functionality 
+Search for rentals in form menu
+#Bugs 
+-The RENTAL TYPE combobox has the options for the BOATS section.
+-The RENTAL TYPE cmbox does not have a "hotel" option.
+-The SEARCH functionality does not take the parameters entered in the menu.
+-The DESTINATION field says REQUIRED but you can perform the search with the field empty. 
+-DATE field is writable (You should disable the field for writing, DATE type fields should be selectable, not writable).
+#enhancements
+-The search could be improved by adding in addition to the number of people, the number of rooms required.
+-2 date fields should be added, one with the date of entry and one with the date of exit. 
+-A functionality could be added to show people's reviews.
+
+
+#Exploration Target
+Page Search for rentals obtained
+#Functionality
+Filter Search
+#Bugs
+-There is no HOTEL option inside RENTALS TYPE.
+-STAR GRADE, PRICE RANGE, RENTALS TYPE filter does not work.
+#enhancements
+-The DATE RANGE search could be improved by adding a "CHECK IN" field and a "CHECK OUT" field.
+-You could add a filtering option for PRICE HIGH-LOW/ PRICE LOW-HIGH or TOP PICKS.
+
+#Exploration Target: 
+Page Search for rentals obtained
+#Functionality:
+Modify Search
+#Bug:
+-The DESTINATION field says REQUIRED but you can perform the search modification with the field empty. 
+-In the RENTAL TYPE combobox there is no Hotel option.
+-DATE field writable (Field should be disabled for writing, DATE type fields should be selectable, not writable).
+-The DATE field allows you to select booking dates more than 2 years in advance (e.g. - 2027).
+#enhancements:
+-2 date fields should be added, one with the date of entry and one with the date of exit. 
+
+
+
+
+
+
