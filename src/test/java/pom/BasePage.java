@@ -17,10 +17,9 @@ public class BasePage {
 
 	public void click(By element) throws Exception {
 		try {
-
 			elementClickable(element);
 			driver.findElement(element).click();
-
+			Thread.sleep(500);
 		} catch (Exception e) {
 			throw new Exception("The element could not be clicked on: " + element);
 		}
@@ -28,7 +27,6 @@ public class BasePage {
 
 	public void sendKeys(By element, String value) throws Exception {
 		try {
-			Thread.sleep(400);
 			driver.findElement(element).sendKeys(value);
 		} catch (Exception e) {
 			throw new Exception("Unable to send keys on the element: " + element);
@@ -36,7 +34,7 @@ public class BasePage {
 	}
 
 	public void sendKeys(String value) throws Exception {
-		Thread.sleep(400);
+		Thread.sleep(1200);
 		driver.findElement(By.xpath("//body")).sendKeys(value);
 	}
 

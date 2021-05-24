@@ -44,6 +44,7 @@ public class Login extends BasePage {
 	}
 	
 	public void clickOnBtnLogin() throws Exception {
+		this.scrollToElement(btnLogin);
 		this.click(btnLogin);
 	}
 
