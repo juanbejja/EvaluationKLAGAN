@@ -28,6 +28,7 @@ public class BasePage {
 
 	public void sendKeys(By element, String value) throws Exception {
 		try {
+			Thread.sleep(400);
 			driver.findElement(element).sendKeys(value);
 		} catch (Exception e) {
 			throw new Exception("Unable to send keys on the element: " + element);
@@ -35,6 +36,7 @@ public class BasePage {
 	}
 
 	public void sendKeys(String value) throws Exception {
+		Thread.sleep(400);
 		driver.findElement(By.xpath("//body")).sendKeys(value);
 	}
 
